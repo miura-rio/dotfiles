@@ -1,0 +1,18 @@
+# General
+defutf8         on
+defencoding     utf8
+encoding        utf8
+startup_message off
+vbell           off
+msgminwait      0
+autodetach      on
+defscrollback   1000
+
+#list window
+hardstatus on
+hardstatus alwayslastline "%{.Wb}.: %-w%{.RW}%n %t%{-}%+w :. %=[%Y-%m-%d %02c]"
+
+#sehll
+shell -$SHELL
+
+
