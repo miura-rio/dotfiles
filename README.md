@@ -5,7 +5,7 @@ dotfiles
 
 
 ```sh
-$ git clone git clone https://github.com/miura-rio/dotfiles.git
+$ git clone https://github.com/miura-rio/dotfiles.git
 ```
 
 ```sh
