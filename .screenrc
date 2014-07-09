@@ -4,9 +4,10 @@ defencoding     utf8
 encoding        utf8
 startup_message off
 vbell           off
+msgwait         1
 msgminwait      0
 autodetach      on
-defscrollback   1000
+defscrollback   5000
 
 #list window
 hardstatus on
