@@ -12,9 +12,9 @@
 syntax on
 
 " ターミナルでマウスを使用できるようにする
-set mouse=a
-set guioptions+=a
-set ttymouse=xterm2
+"set mouse=a
+"set guioptions+=a
+"set ttymouse=xterm2
 
 " ヤンクした文字は、システムのクリップボードに入れる
 set clipboard=unnamed
