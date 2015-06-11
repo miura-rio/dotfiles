@@ -89,6 +89,7 @@
 
     // Custom Globals
     "predef":[
+      "Cordova",
       "Backbone",
       "_"
     ],
