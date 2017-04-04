@@ -1,34 +1,24 @@
 " 行番号を表示させる
-:set number
+set number
 
 " バックアップファイルを作らない
-:set nobackup
+set nobackup
 
-" タブ
-:set list
-:set listchars=tab:>.
-:set tabstop=4
+" タブ文字を見えるよう。幅は4文字分
+set list
+set listchars=tab:>.
+set tabstop=4
 
+" シンタックスハイライト
 syntax on
 
-" ターミナルでマウスを使用できるようにする
-"set mouse=a
-"set guioptions+=a
-"set ttymouse=xterm2
+" モードラインは無効
+set modelines=0
 
-" ヤンクした文字は、システムのクリップボードに入れる
-set clipboard=unnamed
-
-set modelines=0 " モードラインは無効
-
-set laststatus=2 " 常にステータスラインを表示
-
+" 常にステータスラインを表示
+set laststatus=2
+ 
 " カーソルが何行目の何列目に置かれているかを表示する
 set ruler
-
-" 全角スペースの表示
-highlight ZenkakuSpace cterm=underline ctermfg=lightblue guibg=darkgray
-match ZenkakuSpace /　/
-
 
 
